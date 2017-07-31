@@ -115,7 +115,7 @@ body {
 
 .quote {
   font-style: italic;
-  margin-left: 10px;
+  margin-left: 15px;
 }
 
 .foot {
@@ -123,6 +123,8 @@ body {
   background-color: #ACB43A;
   color: #603D29;
   font-size: 16px;
+  display:inline-flex;
+  width: 100%;
 }
 
 .foot p {
@@ -132,5 +134,7 @@ body {
 .foot a {
   text-decoration: none;
   color: #2a70b1;
-  padding: 30px;
+  padding: 10px 0 0 30px;
+  position: absolute;
+  right: 5%;
 }
