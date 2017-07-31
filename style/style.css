@@ -1,0 +1,29 @@
+.logo {
+  padding-top: 7px;
+}
+
+.navbar-default {
+  background-color: #ACB43A;
+  border-color: #6B8D0D;
+  border-width: 2px;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #603D29;
+  font-weight: bold;
+  font-style: italic;
+}
+
+body {
+  background-color: #603D29;
+  color: #ACB43A;
+}
+
+.roasting {
+  font-size: 16px;
+
+}
+
+.roasting h3 {
+  margin-left: 30px;
+}
