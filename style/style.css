@@ -19,11 +19,118 @@ body {
   color: #ACB43A;
 }
 
-.roasting {
+.roasting, .sorts {
   font-size: 16px;
 
 }
 
 .roasting h3 {
   margin-left: 30px;
+}
+
+.melting td {
+  text-align: center;
+}
+
+.table > tbody > tr > td {
+  border: 35px solid #603D29 !important;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.table td, .table td:hover {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 500px;
+  height: 375px;
+}
+
+.weak {
+  background-image: url(../images/td1.jpg);
+}
+
+.weak span {
+  visibility: hidden;
+}
+
+.weak:hover {
+  background: radial-gradient( rgba(138, 138, 138, 0.6),rgba(58, 58, 58, 0.8)), url(../images/td1.jpg);
+}
+
+.weak:hover span {
+  visibility: visible;
+}
+
+.medium {
+  background-image: url(../images/td2.jpg);
+}
+
+.medium span {
+  visibility: hidden;
+}
+
+.medium:hover {
+  background: radial-gradient( rgba(138, 138, 138, 0.6),rgba(58, 58, 58, 0.8)), url(../images/td2.jpg);
+}
+
+.medium:hover span {
+  visibility: visible;
+}
+
+.hard {
+    background-image: url(../images/td3.jpg);
+}
+
+.hard span {
+  visibility: hidden;
+}
+
+.hard:hover {
+  background: radial-gradient( rgba(138, 138, 138, 0.6),rgba(58, 58, 58, 0.8)), url(../images/td3.jpg);
+}
+
+.hard:hover span {
+  visibility: visible;
+}
+
+.Italian {
+    background-image: url(../images/td4.jpg);
+}
+
+.Italian span {
+  visibility: hidden;
+}
+
+.Italian:hover {
+  background: radial-gradient( rgba(138, 138, 138, 0.6),rgba(58, 58, 58, 0.8)), url(../images/td4.jpg);
+}
+
+.Italian:hover span {
+  visibility: visible;
+}
+
+.sorts h3, .sorts h4 {
+  margin-left: 30px;
+}
+
+.quote {
+  font-style: italic;
+  margin-left: 10px;
+}
+
+.foot {
+  border: 1px solid #6B8D0D;
+  background-color: #ACB43A;
+  color: #603D29;
+  font-size: 16px;
+}
+
+.foot p {
+  padding: 10px 0 0 30px;
+}
+
+.foot a {
+  text-decoration: none;
+  color: #2a70b1;
+  padding: 30px;
 }
